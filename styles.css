@@ -1,3 +1,13 @@
+/* Header Div */
+.header {
+  position: relative;
+  display: inline-block;
+  background-color: #00ccff;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;  
+}
 /* Dropdown Button */
 .dropbtn {
   background-color: #4CAF50;
