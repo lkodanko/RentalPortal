@@ -4,11 +4,27 @@
   display: inline-block;
   background-color: #00ccff;
   color: black;
-  padding: 1%;
   font-size: 16px;
   border: none;  
-  width: 98%;
+  width: 100%;
 }
+
+/* The container <div> - For other right header content */
+.headerrgt {
+  position: relative;
+  display: inline-block;
+  padding: 1%;
+  float: right;
+}
+
+/* The container <div> - For other left header content */
+.headerlft {
+  position: relative;
+  display: inline-block;
+  padding: 1%;
+  float: left;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #4CAF50;
