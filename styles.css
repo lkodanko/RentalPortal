@@ -11,7 +11,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
-  flout: right;
+  float: right;
 }
 
 /* Dropdown Content (Hidden by Default) */
