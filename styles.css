@@ -7,6 +7,7 @@
   font-size: 16px;
   border: none;  
   width: 100%;
+  height: 5%;
 }
 
 /* The container <div> - For other right header content */
@@ -15,6 +16,7 @@
   display: inline-block;
   padding: 1%;
   float: right;
+  height: 5%;
 }
 
 /* The container <div> - For other left header content */
@@ -24,6 +26,7 @@
   padding: 1%;
   float: left;
   white-space: nowrap;
+  height: 5%;
 }
 
 /* Dropdown Button */
