@@ -38,7 +38,6 @@
 .dropbtn {
   background-color: #4CAF50;
   color: white;
-  height: 5%;
   padding: 1%;
   font-size: 16px;
   border: grey;
@@ -49,6 +48,7 @@
   position: relative;
   display: inline-block;
   float: right;
+  height:  5%;
 }
 
 /* Dropdown Content (Hidden by Default) */
