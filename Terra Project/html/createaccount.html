@@ -28,6 +28,20 @@
         <input id="pw" name="pw" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,50}" size="15" required 
         title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
         <br>
+        <label for="pw">Repeat Password:</label>
+        <br>
+        <input id="pw" name="pw" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,50}" size="15" required 
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+        <br>
+        <input type="radio" name="account" value="landlord"> Landlord Account
+        <div class="reveal-if-active">
+          <input for="type="radio" name="age" value="new"> New Account
+          <input type="radio" name="age" value="existing"> Existing Account
+        </div>
+        <input type="radio" name="account" value="tenant"> Tenant Account
+        <br>
+        
+        <br>
         <input type="submit" value="Submit">
       </form>
     </section>
