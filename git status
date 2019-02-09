@@ -1,0 +1,33 @@
+[1mdiff --git a/Terra Project/html/createaccount.html b/Terra Project/html/createaccount.html[m
+[1mindex de2a277..85f9b2f 100644[m
+[1m--- a/Terra Project/html/createaccount.html[m	
+[1m+++ b/Terra Project/html/createaccount.html[m	
+[36m@@ -8,14 +8,24 @@[m
+     <section>[m
+       <form action="userinfo.html" method="POST">[m
+         <h1>Create Account</h1>[m
+[31m-        <label for="username">Username:</label>[m
+[32m+[m[32m        <label for="email">Email:</label>[m
+         <br>[m
+[31m-        <input id="username" name="username" type="text" minlength="5" maxlength="15" required[m
+[31m-        title="Must be between 5 and 15 characters long">[m
+[32m+[m[32m        <input id="email" name="email" type="email" size="15" pattern="+@+.com"[m
+[32m+[m[32m        title="Must be a valid email address." placeholder="user@email.com">[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <label for="first">First Name:</label>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <input id="first" name="first" type="text" size="15"[m[41m [m
+[32m+[m[32m        title="Please Enter your first name.">[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <label for="last">Last Name:</label>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <input id="last" name="last" type="text" size="15"[m[41m [m
+[32m+[m[32m        title="Please Enter your Last name.">[m
+         <br>[m
+         <label for="pw">Password:</label>[m
+         <br>[m
+[31m-        <input id="pw" name="pw" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,50}" required [m
+[32m+[m[32m        <input id="pw" name="pw" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,50}" size="15" required[m[41m [m
+         title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">[m
+         <br>[m
+         <input type="submit" value="Submit">[m

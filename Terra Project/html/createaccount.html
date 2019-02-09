@@ -8,14 +8,24 @@
     <section>
       <form action="userinfo.html" method="POST">
         <h1>Create Account</h1>
-        <label for="username">Username:</label>
+        <label for="email">Email:</label>
         <br>
-        <input id="username" name="username" type="text" minlength="5" maxlength="15" required
-        title="Must be between 5 and 15 characters long">
+        <input id="email" name="email" type="email" size="15" pattern="+@+.com"
+        title="Must be a valid email address." placeholder="user@email.com">
+        <br>
+        <label for="first">First Name:</label>
+        <br>
+        <input id="first" name="first" type="text" size="15" 
+        title="Please Enter your first name.">
+        <br>
+        <label for="last">Last Name:</label>
+        <br>
+        <input id="last" name="last" type="text" size="15" 
+        title="Please Enter your Last name.">
         <br>
         <label for="pw">Password:</label>
         <br>
-        <input id="pw" name="pw" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,50}" required 
+        <input id="pw" name="pw" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,50}" size="15" required 
         title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
         <br>
         <input type="submit" value="Submit">
