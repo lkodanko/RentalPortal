@@ -8,20 +8,25 @@
     <section>
       <form action="userinfo.html" method="POST">
         <h1>Create Account</h1>
-        <label for="email">Email:</label>
+
         <br>
-        <input id="email" name="email" type="email" size="15" pattern="+@+.com"
-        title="Must be a valid email address." placeholder="user@email.com">
+        <input type="radio" name="account" value="new"> New Account
+        <input type="radio" name="account" value="existing"> Existing Account
         <br>
-        <label for="first">First Name:</label>
+
         <br>
-        <input id="first" name="first" type="text" size="15" 
-        title="Please Enter your first name.">
+        <label for="numberproperties">How many properties would you like to 
+          offer services to?</label>
+          <input id="numberproperties" name="numberproperties" type="number" step="1">					
         <br>
-        <label for="last">Last Name:</label>
+
+        <!--Should include multiple fields based on input for last question-->
+
         <br>
-        <input id="last" name="last" type="text" size="15" 
-        title="Please Enter your Last name.">
+        <label for="nickname">Enter a nickname for your first property:</label>
+        <br>
+        <input id="nickname" name="nickname" type="text" size="15" 
+        title="Please a nickname for your first property. Usually name of the rd and house number.">
         <br>
         <label for="pw">Password:</label>
         <br>
